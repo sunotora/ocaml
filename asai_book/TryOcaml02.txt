@@ -1,0 +1,34 @@
+var hoge = 1;;
+let hoge == 
+1;;
+let hoge = 1;;
+if true then 1 else "2";;
+if true then 1 else 2;;
+if true then 1 ;;
+;;
+;;
+;;
+let t &lt; 
+15 then 
+"普通";;
+;;
+;;
+"普通";;
+;
+if t &lt; 15 then "aaa";;
+if t &lt; 15 then "aaa" else if t &lt;= 25 then "bbb" else "ccc";;
+let;;
+let kion t = if t &lt; 15 then "aaa" else if t &lt;= 25 then "bbb" else "ccc";;
+let test1 = kion 7 = "aaa";;
+
+
+
+
+
+
+
+
+
+;;
+let test2 = kion 15 = "bbb";;
+3/0;;
