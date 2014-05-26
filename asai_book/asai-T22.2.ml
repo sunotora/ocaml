@@ -14,6 +14,8 @@ let rec fib n =
 
 List.map fib (enum2 15);;
 
+let fibo1 x = List.map fib (enum2 x);;
+
 (****************************************************)
 (* 値の書き換え *)
 (* let count = ref 0;; *)
@@ -30,3 +32,9 @@ let rec fib2 n =
 fib2 15;;
 
 List.map fib2 (enum2 15);;
+
+let fibo2 x = List.map fib2 (enum2 x);;
+
+
+fibo1 10;;
+fibo2 10;;
